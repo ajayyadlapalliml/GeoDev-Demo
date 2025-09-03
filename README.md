@@ -1,21 +1,21 @@
-# 🏗️ Geo Development Demo
+# Geo Development Demo
 
 A full-stack demo application showcasing real estate development workflow management - perfect for demonstrating software engineering skills at Geo Development.
 
-## 🎯 Project Overview
+## Project Overview
 
 This demo mirrors Geo's mission of optimizing real estate development workflows by providing a simplified system to manage:
 - **Development Projects** (e.g., "Residential Complex Phase 1")
 - **Project Tasks** (e.g., "Zoning Approval", "Foundation Work")
 
-## 🏗️ Architecture
+## Architecture
 
 - **Frontend**: React + TypeScript + Vite + Tailwind CSS + React Query
 - **Backend**: Python FastAPI + SQLAlchemy + Pydantic
 - **Database**: Supabase PostgreSQL (with SQLite fallback for demo)
 - **API**: RESTful JSON APIs with CORS enabled
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Python 3.8+** (Python 3.13+ recommended)
@@ -92,7 +92,7 @@ npm run dev
 - **API Documentation**: http://localhost:8000/docs
 - **Health Check**: http://localhost:8000/health
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -138,7 +138,7 @@ rm geodev_demo.db
 # Tables are created automatically via SQLAlchemy
 ```
 
-## 📋 Features
+## Features
 
 ### Projects Management
 - Create new development projects with name and description
@@ -156,7 +156,7 @@ rm geodev_demo.db
 - Clean navigation between projects and tasks
 - Professional styling relevant to real estate development
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 - `GET /` - API information and version
@@ -172,7 +172,7 @@ rm geodev_demo.db
 - `POST /projects/{id}/tasks` - Create a task for a specific project
 - `GET /projects/{id}/tasks` - List all tasks for a specific project
 
-## 🗄️ Database Schema
+## Database Schema
 
 ```sql
 -- Projects table
@@ -193,7 +193,7 @@ CREATE TABLE tasks (
 );
 ```
 
-## 🎨 UI Components
+## UI Components
 
 - **ProjectForm**: Create new development projects with validation
 - **ProjectTable**: Display all projects in a professional, sortable table
@@ -201,7 +201,7 @@ CREATE TABLE tasks (
 - **TaskList**: Show project tasks with clean, organized layout
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
-## 🔒 Security & Configuration
+## Security & Configuration
 
 - CORS enabled for local development
 - Environment variable configuration for sensitive data
@@ -209,14 +209,14 @@ CREATE TABLE tasks (
 - SQL injection protection with SQLAlchemy ORM
 - Automatic database table creation with proper relationships
 
-## 📱 Demo Flow
+## Demo Flow
 
 1. **Create a Project**: Add a new development project (e.g., "Downtown Office Complex", "Residential Phase 2")
 2. **Add Tasks**: Create tasks like "Site Survey", "Permit Application", "Foundation Design", "Electrical Planning"
 3. **Navigate**: Click between projects to manage different development workflows
 4. **Showcase**: Demonstrate full-stack CRUD operations, API design, and modern UI patterns
 
-## 🎯 Why This Demo?
+## Why This Demo?
 
 - **Relevant to Geo**: Real estate development workflow management
 - **Full-Stack Skills**: Frontend, backend, database, and API design
@@ -225,7 +225,7 @@ CREATE TABLE tasks (
 - **Professional UI**: Polished interface that demonstrates attention to detail
 - **Production Ready**: Proper error handling, validation, and fallback mechanisms
 
-## 🚀 Deployment Ready
+## Deployment Ready
 
 The application is structured for easy deployment:
 - **Backend**: Can be deployed to any Python hosting service (Heroku, Railway, DigitalOcean, etc.)
@@ -245,7 +245,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This demo showcases:
 - **API Design**: RESTful principles and endpoint organization
@@ -255,7 +255,7 @@ This demo showcases:
 - **Full-Stack Integration**: Seamless communication between frontend and backend
 - **Development Workflow**: Environment setup, dependency management, and debugging
 
-## 🤝 Contributing
+## Contributing
 
 This is a demo project, but if you find any issues or have suggestions:
 1. Fork the repository
@@ -263,12 +263,12 @@ This is a demo project, but if you find any issues or have suggestions:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+## License
 
 This project is for demonstration purposes. Feel free to use it as a reference for your own projects.
 
 ---
 
-Perfect for demonstrating software engineering capabilities in a real estate development context! 🏗️✨
+Perfect for demonstrating software engineering capabilities in a real estate development context!
 
 **Ready to showcase your skills? Start the application and create your first development project!**

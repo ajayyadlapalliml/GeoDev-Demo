@@ -1,8 +1,8 @@
-# 🚀 Geo Development Demo - Backend
+# Geo Development Demo - Backend
 
 FastAPI backend for managing real estate development projects and tasks. Built with modern Python practices and designed for scalability.
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Framework**: FastAPI with automatic API documentation
 - **ORM**: SQLAlchemy 2.0+ with async support
@@ -10,7 +10,7 @@ FastAPI backend for managing real estate development projects and tasks. Built w
 - **Database**: PostgreSQL (Supabase) with SQLite fallback
 - **Server**: Uvicorn with hot reload for development
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### Prerequisites
 - Python 3.8+ (Python 3.13+ recommended)
@@ -66,7 +66,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 - **Documentation**: http://localhost:8000/docs
 - **Health Check**: http://localhost:8000/health
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 - `GET /` - API information and version
@@ -82,7 +82,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 - `POST /projects/{id}/tasks` - Create a task for a specific project
 - `GET /projects/{id}/tasks` - List all tasks for a specific project
 
-## 🗄️ Database
+## Database
 
 ### Automatic Setup
 - Tables are automatically created on startup
@@ -121,7 +121,7 @@ CREATE TABLE tasks (
 );
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 backend/
@@ -140,7 +140,7 @@ backend/
 └── README.md           # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `SUPABASE_DB_URL`: Supabase PostgreSQL connection string
@@ -151,7 +151,7 @@ backend/
 - Allows frontend on ports 5173 and 3000
 - Easily adjustable for production domains
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -197,7 +197,7 @@ rm geodev_demo.db
 # Tables are created automatically via SQLAlchemy
 ```
 
-## 🧪 Development
+## Development
 
 ### Code Quality
 - Type hints throughout the codebase
@@ -220,7 +220,7 @@ pip install pytest pytest-asyncio httpx
 pytest
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Considerations
 - Use production WSGI server (Gunicorn + Uvicorn workers)
@@ -240,7 +240,7 @@ COPY . .
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 📚 Dependencies
+## Dependencies
 
 ### Core Dependencies
 - `fastapi>=0.104.0` - Modern web framework
@@ -253,7 +253,7 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 - `psycopg2-binary>=2.9.0` - PostgreSQL adapter
 - `asyncpg>=0.29.0` - Async PostgreSQL driver
 
-## 🤝 Contributing
+## Contributing
 
 This is a demo project, but if you find any issues or have suggestions:
 1. Fork the repository
@@ -261,10 +261,10 @@ This is a demo project, but if you find any issues or have suggestions:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+## License
 
 This project is for demonstration purposes. Feel free to use it as a reference for your own projects.
 
 ---
 
-**Ready to build amazing real estate development workflows? Start the server and create your first project!** 🏗️✨
+**Ready to build amazing real estate development workflows? Start the server and create your first project!**

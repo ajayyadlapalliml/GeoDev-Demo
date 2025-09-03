@@ -1,8 +1,8 @@
-# 🎨 Geo Development Demo - Frontend
+# Geo Development Demo - Frontend
 
 Modern React frontend for managing real estate development projects and tasks. Built with TypeScript, Tailwind CSS, and React Query for a professional user experience.
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Framework**: React 18 with TypeScript
 - **Build Tool**: Vite for fast development and building
@@ -12,7 +12,7 @@ Modern React frontend for managing real estate development projects and tasks. B
 - **HTTP Client**: Axios for API communication
 - **UI Components**: Custom components with Tailwind CSS
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -55,7 +55,7 @@ npm run preview
 - **Development**: http://localhost:5173
 - **Production Preview**: http://localhost:4173 (after `npm run preview`)
 
-## 🎯 Features
+## Features
 
 ### Project Management
 - **Create Projects**: Add new development projects with name and description
@@ -73,7 +73,7 @@ npm run preview
 - **Real-time Updates**: React Query for efficient data fetching and caching
 - **Navigation**: Intuitive routing between projects and tasks
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -99,7 +99,7 @@ frontend/
 └── README.md                # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `VITE_API_URL`: Backend API base URL
@@ -115,7 +115,7 @@ frontend/
 - Interface definitions for all API data
 - Type-safe component props and state
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -158,7 +158,7 @@ kill -9 <PID>
 - Use Network tab to debug API calls
 - Enable React Query DevTools for state debugging
 
-## 🧪 Development
+## Development
 
 ### Code Quality
 - TypeScript for type safety
@@ -182,7 +182,7 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom
 npm test
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Build for Production
 ```bash
@@ -205,7 +205,7 @@ npm run preview
 VITE_API_URL=https://your-backend-domain.com
 ```
 
-## 📚 Dependencies
+## Dependencies
 
 ### Core Dependencies
 - `react>=18.0.0` - UI framework
@@ -227,7 +227,7 @@ VITE_API_URL=https://your-backend-domain.com
 ### HTTP Client
 - `axios>=1.0.0` - HTTP client for API calls
 
-## 🎨 UI Components
+## UI Components
 
 ### ProjectForm
 - Input validation for project creation
@@ -249,14 +249,14 @@ VITE_API_URL=https://your-backend-domain.com
 - Status indicators
 - Responsive card layout
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - Input validation on frontend and backend
 - CORS properly configured
 - No sensitive data in client-side code
 - Environment variables for configuration
 
-## 🤝 Contributing
+## Contributing
 
 This is a demo project, but if you find any issues or have suggestions:
 1. Fork the repository
@@ -264,10 +264,10 @@ This is a demo project, but if you find any issues or have suggestions:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+## License
 
 This project is for demonstration purposes. Feel free to use it as a reference for your own projects.
 
 ---
 
-**Ready to create amazing user experiences? Start the development server and build your first project!** 🎨✨
+**Ready to create amazing user experiences? Start the development server and build your first project!**
