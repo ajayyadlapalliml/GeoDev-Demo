@@ -25,7 +25,7 @@ This demo mirrors Geo's mission of optimizing real estate development workflows 
 ### 1. Clone and Setup
 ```bash
 # Clone the repository
-git clone <your-github-repo-url>
+git clone https://github.com/ajayyadlapalliml/GeoDev-Demo.git
 cd GeoDev_Demo
 
 # Run the setup script (macOS/Linux)
